@@ -1,0 +1,3033 @@
+[
+  {
+    "method": "POST",
+    "routing": "Config.URL_USER_LOGIN",
+    "response": "LoginInfo",
+    "nameFunction": "login",
+    "modelRequest": "oginInfo> login(@Body LoginRequest loginRequest);"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_ForgotPassword",
+    "response": "DataResponse",
+    "nameFunction": "forgotPassword",
+    "modelRequest": "ataResponse> forgotPassword(@Body UserPassRequest request);"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserChangePasswordNew",
+    "response": "DataResponse",
+    "nameFunction": "changePassword",
+    "modelRequest": "ataResponse> changePassword(@Body UserPassRequest request);"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListOrderResponse",
+    "nameFunction": "getListOrder",
+    "modelRequest": "GetListOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListChannelByOwnerTypeIdResponse",
+    "nameFunction": "getListChannelByOwnerTypeId",
+    "modelRequest": "GetListChannelByOwnerTypeIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSaleTransTypeResponse",
+    "nameFunction": "getSaleTransType",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAllInfoResponse",
+    "nameFunction": "WS_GetAllInfo",
+    "modelRequest": "GetAllInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ProgramAndReasonResponse",
+    "nameFunction": "getSaleProgramAndReason",
+    "modelRequest": "GetProgramAndrReasonRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSerialsResponse",
+    "nameFunction": "getSerials",
+    "modelRequest": "GetSerialRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetOrderInfoResponse",
+    "nameFunction": "getOrderInfo",
+    "modelRequest": "GetOrderInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReasonResponse",
+    "nameFunction": "getReason",
+    "modelRequest": "GetReasonRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateSaleTransFromOrderResponse",
+    "nameFunction": "createSaleTransFromOrder",
+    "modelRequest": "CreateSaleTransFromOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateSaleOrderResponse",
+    "nameFunction": "updateSaleOrder",
+    "modelRequest": "UpdateSaleOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetTotalStockResponse",
+    "nameFunction": "getModelSales",
+    "modelRequest": "GetTotalStockRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetInfoSaleTranResponse",
+    "nameFunction": "getSaleTransInfo",
+    "modelRequest": "GetInfoSaleTranRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateSaleTransRetailResponse",
+    "nameFunction": "createSaleTransRetail",
+    "modelRequest": "GetInfoSaleTranRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSaleTransForIdResponse",
+    "nameFunction": "getSaleTransForId",
+    "modelRequest": "GetSaleTransForIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDistributedChannelResponse",
+    "nameFunction": "getDistributedChannelInfo",
+    "modelRequest": "GetDistributedChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateDistributedChannelResponse",
+    "nameFunction": "createDistributedChannel",
+    "modelRequest": "CreateDistributedChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateSaleTransChannelResponse",
+    "nameFunction": "createSaleTransChannel",
+    "modelRequest": "CreateSaleTransChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStockModelResponse",
+    "nameFunction": "getListStockModel",
+    "modelRequest": "GetListStockModelAllRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStockModelAllResponse",
+    "nameFunction": "getListStockModelAll",
+    "modelRequest": "GetListStockModelAllRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListSerialResponse",
+    "nameFunction": "getListSerial",
+    "modelRequest": "GetListSerialRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListProvinceResponse",
+    "nameFunction": "getListProvince",
+    "modelRequest": "GetListProvinceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListTTKDResponse",
+    "nameFunction": "getListTTKD",
+    "modelRequest": "GetListTTKDRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListShopResponse",
+    "nameFunction": "getListShop",
+    "modelRequest": "GetListShopRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateOrderResponse",
+    "nameFunction": "createSaleOrders",
+    "modelRequest": "KPPOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "RegisterCustomerInfoResponse",
+    "nameFunction": "registerCustomerInfo",
+    "modelRequest": "RegisterCustomerInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "RegisterSubscriberInfoResponse",
+    "nameFunction": "registerSubscriberInfo",
+    "modelRequest": "RegisterSubscriberInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetRegisterSubInfoResponse",
+    "nameFunction": "getRegiterSubInfo",
+    "modelRequest": "GetRegisterSubInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBusTypeIdRequireResponse",
+    "nameFunction": "getListBusTypeIdRequire",
+    "modelRequest": "GetListBusTypeIdRequireRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetApDomainByTypeResponse",
+    "nameFunction": "getApDomainByType",
+    "modelRequest": "GetApDomainByTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetOTPResponse",
+    "nameFunction": "getOTP",
+    "modelRequest": "GetOTPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CheckOTPResponse",
+    "nameFunction": "checOTP",
+    "modelRequest": "CheckOTPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAllSubInfoResponse",
+    "nameFunction": "getAllSubInfo",
+    "modelRequest": "GetAllSubInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateAllSubInfoResponse",
+    "nameFunction": "updateAllSubInfo",
+    "modelRequest": "UpdateAllSubInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CheckIdNoResponse",
+    "nameFunction": "checkIdNo",
+    "modelRequest": "CheckIdNoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAnypayAuthorizeResponse",
+    "nameFunction": "getAnypayAuthorize",
+    "modelRequest": "GetAnypayAuthorizeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SellAnypayToCustomerResponse",
+    "nameFunction": "saleAnypayToCustomer",
+    "modelRequest": "SellAnypayToCustomerRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SellAnypayToChannelResponse",
+    "nameFunction": "saleAnypayToChannel",
+    "modelRequest": "SellAnypayToChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSaleTransForIdResponse",
+    "nameFunction": "saleAnypayToChannelMytelpay",
+    "modelRequest": "GetSaleTransForIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "TransferAnyPayResponse",
+    "nameFunction": "transferAnyPay",
+    "modelRequest": "TransferAnyPayRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "RefillAnyPayResponse",
+    "nameFunction": "refillAnyPay",
+    "modelRequest": "RefillAnyPayRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DataResponse",
+    "nameFunction": "checkChangeSimDebit",
+    "modelRequest": "CheckDebitChangeSimRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DataResponse",
+    "nameFunction": "checkCalledIsdnChangeSim",
+    "modelRequest": "CheckCalledIsdnsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ChangeSimResponse",
+    "nameFunction": "changeSim",
+    "modelRequest": "ChangeSimRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSurveyKPPResponse",
+    "nameFunction": "getSurveyKPP",
+    "modelRequest": "GetSurveyKPPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SendSurveyKPPResponse",
+    "nameFunction": "sendSurveyKPP",
+    "modelRequest": "SendSurveyKPPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetHotNewsCSKPPResponse",
+    "nameFunction": "getHotNews",
+    "modelRequest": "GetHotNewsCSKPPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetHotNewsInfoCSKPPResponse",
+    "nameFunction": "getHotNewsInfo",
+    "modelRequest": "GetHotNewsInfoCSKPPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetKPPFeedbackResponse",
+    "nameFunction": "getKPPFeedback",
+    "modelRequest": "GetKPPFeedbackRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetKPPFeedbackInfoResponse",
+    "nameFunction": "getKPPFeedbackInfo",
+    "modelRequest": "GetKPPFeedbackInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "KPPFeedbackResponse",
+    "nameFunction": "kppFeedback",
+    "modelRequest": "KPPFeedbackRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "KPPRespondFeedbackResponse",
+    "nameFunction": "kppResponseFeedback",
+    "modelRequest": "KPPRespondFeedbackRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UploadImageResponse",
+    "nameFunction": "uploadImage",
+    "modelRequest": "UploadImageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UploadImageResponse",
+    "nameFunction": "uploadTaskImage",
+    "modelRequest": "UploadTaskImageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UserInfo",
+    "nameFunction": "getUserInfo",
+    "modelRequest": "GetUserInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DownloadImageResponse",
+    "nameFunction": "downloadImage",
+    "modelRequest": "DownloadImageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListIdImageResponse",
+    "nameFunction": "getListIdImage",
+    "modelRequest": "GetListIdImageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ListStockTransDetailsReponse",
+    "nameFunction": "getListStockTransDetail",
+    "modelRequest": "GetListStockTransDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createExpStock",
+    "modelRequest": "CreateExpStockRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListProductResponse",
+    "nameFunction": "getListProduct",
+    "modelRequest": "GetListProductRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DataResponse",
+    "nameFunction": "isKppManager",
+    "modelRequest": "IsKPPManagerRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSurveyKPPResponse",
+    "nameFunction": "getSurveyKPPList",
+    "modelRequest": "GetSurveyKPPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "sendSurvey",
+    "modelRequest": "SendSurveyKPPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListTeamResponse",
+    "nameFunction": "getListTeam",
+    "modelRequest": "GetListTeamRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListDsLamByTeamIdResponse",
+    "nameFunction": "getListDsLamByTeamId",
+    "modelRequest": "GetListDsLamByTeamIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReceiverChangeAddressResponse",
+    "nameFunction": "receiverChangeAddress",
+    "modelRequest": "erverDataResponse<BaseResponse<GetReceiverChangeAddressResponse>>> receiverChangeAddress(@Body AddressRequest<GetReceiverChangeAddressRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListSearchTransResponse",
+    "nameFunction": "getListSearchTrans",
+    "modelRequest": "GetListSearchTransRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSaleTransDetailResponse",
+    "nameFunction": "getSaleTransDetail",
+    "modelRequest": "GetSaleTransDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "createInvoiceBill",
+    "modelRequest": "GetCreateInvoiceBillRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetRegisterSubResponse",
+    "nameFunction": "getRegisterSub",
+    "modelRequest": "GetRegisterSubRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "InputOrderResponse",
+    "nameFunction": "getListInvoice",
+    "modelRequest": "InputOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "importInvoiceList",
+    "modelRequest": "InputOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createExpStockNotNote",
+    "modelRequest": "CreateExpStockNotNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "AgentStockTransInfoResponse",
+    "nameFunction": "createExpRecoverStockToAgent",
+    "modelRequest": "CreateExpStockNotNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListRegTypeResponse",
+    "nameFunction": "getListRegType",
+    "modelRequest": "GetListRegTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListSubTypeResponse",
+    "nameFunction": "getListSubType",
+    "modelRequest": "GetListSubTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ConnectSubscriberPrepaidResponse",
+    "nameFunction": "connectSubscriber",
+    "modelRequest": "ConnectSubscriberPrepaidRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createImportStock",
+    "modelRequest": "CreateImportStockRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListExpCmdResponse",
+    "nameFunction": "getListExpCmd",
+    "modelRequest": "GetListExpCmdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ViewInforSerialResponse",
+    "nameFunction": "viewInfoSerial",
+    "modelRequest": "ViewInforSerialRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListOwneCodeReponse",
+    "nameFunction": "getListOwnerCode",
+    "modelRequest": "GetListOwnerCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createImportCmd",
+    "modelRequest": "CreateImportCmdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createImportNote",
+    "modelRequest": "CreateImportNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createImportNoteNoCMD",
+    "modelRequest": "CreateImportNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "destroyStockTrans",
+    "modelRequest": "DestroyStockTransRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBusTypeResponse",
+    "nameFunction": "getListBusType",
+    "modelRequest": "GetListBusTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createExpCmd",
+    "modelRequest": "CreateExpCmdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createExpNote",
+    "modelRequest": "CreateExpNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseCreateCmdNoteResponse",
+    "nameFunction": "createExpNoteNoCmd",
+    "modelRequest": "CreateExpNoteNoCmdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetStockTransSerialDetailResponse",
+    "nameFunction": "getStockTransDetailSerial",
+    "modelRequest": "GetStockTransSerialDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetTaskPrepareAssignStaffResponse",
+    "nameFunction": "getTaskPrepareAssignStaff",
+    "modelRequest": "GetTaskPrepareAssignStaffRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "AssignTaskForStaffResponse",
+    "nameFunction": "assignTaskForStaff",
+    "modelRequest": "AssignTaskForStaffRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetInfoTaskForUpdateResponse",
+    "nameFunction": "getInfoTaskForUpdate",
+    "modelRequest": "GetInfoTaskForUpdateRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAccessoryForUpdateTaskResponse",
+    "nameFunction": "getAccessoryForUpdateTask",
+    "modelRequest": "GetAccessoryForUpdateTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetStockModelForUpdateTaskResponse",
+    "nameFunction": "getStockModelForUpdateTask",
+    "modelRequest": "GetStockModelForUpdateTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateTaskResponse",
+    "nameFunction": "updateTask",
+    "modelRequest": "UpdateTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CloseTaskResponse",
+    "nameFunction": "closeTask",
+    "modelRequest": "CloseTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetStaffToAssignTaskResponse",
+    "nameFunction": "getStaffToAssignTask",
+    "modelRequest": "GetStaffToAssignTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetChannelRouterResponse",
+    "nameFunction": "getChannelRouter",
+    "modelRequest": "GetChannelRouterRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetChannelWorkTypeResponse",
+    "nameFunction": "getChannelWorkType",
+    "modelRequest": "GetChannelWorkTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListChannelResponse",
+    "nameFunction": "getListChannel",
+    "modelRequest": "GetListChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateTaskExtendResponse",
+    "nameFunction": "createTaskExtend",
+    "modelRequest": "CreateTaskExtendRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetQuotaByProductCodeResponse",
+    "nameFunction": "getQuotaByProductCode",
+    "modelRequest": "GetQuotaByProductCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetBankInfoResponse",
+    "nameFunction": "getBankInfo",
+    "modelRequest": "GetBankInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetCurrBillCycleResponse",
+    "nameFunction": "getCurrBillCycle",
+    "modelRequest": "GetCurrBillCycleRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchProductResponse",
+    "nameFunction": "searchProduct",
+    "modelRequest": "SearchProductRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchAdvancedProductResponse",
+    "nameFunction": "searchAdvancedProduct",
+    "modelRequest": "SearchAdvancedProductRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetProductSearchResponse",
+    "nameFunction": "getProductSearch",
+    "modelRequest": "GetProductSearchRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetProductInfoResponse",
+    "nameFunction": "getProductInfo",
+    "modelRequest": "GetProductInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListApParamsResponse",
+    "nameFunction": "getApParam",
+    "modelRequest": "GetListApParamsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetChangeSimPriceResponse",
+    "nameFunction": "getChangeSimPrice",
+    "modelRequest": "GetChangeSimPriceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindShopByNameResponse",
+    "nameFunction": "findShopByName",
+    "modelRequest": "FindShopByNameRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindStaffByNameResponse",
+    "nameFunction": "findStaffByName",
+    "modelRequest": "FindStaffByNameRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindChannelByNameResponse",
+    "nameFunction": "findChannelByName",
+    "modelRequest": "FindChannelByNameRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStockTypeBySaleServiceCodeResponse",
+    "nameFunction": "getListStockTypeBySaleServiceCode",
+    "modelRequest": "GetListStockTypeBySaleServiceCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListChannelTypeResponse",
+    "nameFunction": "getListChannelType",
+    "modelRequest": "GetListChannelTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetVasForIsdnResponse",
+    "nameFunction": "getVasForIsdn",
+    "modelRequest": "GetVasForIsdnRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetVasInfoResponse",
+    "nameFunction": "getVasInfo",
+    "modelRequest": "GetVasInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "RegisterVasResponse",
+    "nameFunction": "registerVas",
+    "modelRequest": "RegisterVasRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBtsesResponse",
+    "nameFunction": "getListBtses",
+    "modelRequest": "GetListBtsesRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDashBoardInfoResponse",
+    "nameFunction": "getDashBoardInfo",
+    "modelRequest": "GetDashBoardInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetChannelByLocationResponse",
+    "nameFunction": "getChannelByLocation",
+    "modelRequest": "GetChannelByLocationRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetChannelDetailResponse",
+    "nameFunction": "getChannelDetail",
+    "modelRequest": "GetChannelDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateChannelInfoResponse",
+    "nameFunction": "updateChannelInfo",
+    "modelRequest": "UpdateChannelInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "\"/CoreService/UserLogout\"",
+    "response": "LogoutResponse",
+    "nameFunction": "logout",
+    "modelRequest": "ogoutResponse> logout(@Body LogoutRequest loginRequest);"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListSerialOfOrderResponse",
+    "nameFunction": "getListSerialOfOrder",
+    "modelRequest": "GetListSerialOfOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "IsSupervisorResponse",
+    "nameFunction": "isSupervisor",
+    "modelRequest": "IsSupervisorRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAreaInfoResponse",
+    "nameFunction": "getAreaInfo",
+    "modelRequest": "GetAreaInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBtsesByAreaCodeResponse",
+    "nameFunction": "getListBtsesByAreaCode",
+    "modelRequest": "GetListBtsesByAreaCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListShopsByAreaCodeResponse",
+    "nameFunction": "getListShopsByAreaCode",
+    "modelRequest": "GetListShopsByAreaCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListEventsByAreaCodeResponse",
+    "nameFunction": "getListEventsByAreaCode",
+    "modelRequest": "GetListEventsByAreaCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateBtsGpsResponse",
+    "nameFunction": "updateBtsGps",
+    "modelRequest": "UpdateBtsGpsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListModelResponse",
+    "nameFunction": "getListModel",
+    "modelRequest": "GetListModelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStockModelForViewStockResponse",
+    "nameFunction": "getListStockModelForViewStock",
+    "modelRequest": "GetListStockModelForViewStockRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStockModelStatusResponse",
+    "nameFunction": "getListStockModelStatus",
+    "modelRequest": "GetListStockModelStatusRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStockTypeResponse",
+    "nameFunction": "getListStockType",
+    "modelRequest": "GetListStockTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStockTransactionStatusResponse",
+    "nameFunction": "getListStockTransactionStatus",
+    "modelRequest": "GetListStockTransactionStatusRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListOptionSetResponse",
+    "nameFunction": "getListOptionSet",
+    "modelRequest": "GetListOptionSetRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStaffBelowResponse",
+    "nameFunction": "getListStaffBelow",
+    "modelRequest": "GetListStaffBelowRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListSaleTransResponse",
+    "nameFunction": "getListSaleTrans",
+    "modelRequest": "GetListSaleTransRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListCreatePagerMoneyResponse",
+    "nameFunction": "getList",
+    "modelRequest": "GetListCreatePagerMoneyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "pagermoney",
+    "modelRequest": "GetCreatePagerInvoiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListInvoiceCreatedMoneyResponse",
+    "nameFunction": "getListcreateMoney",
+    "modelRequest": "GetListInvoiceCreatedMoneyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetApprovedDetailResponse",
+    "nameFunction": "getListInvoiceDetail",
+    "modelRequest": "GetApprovedRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetApprovedDetailGroupResponse",
+    "nameFunction": "getListInvoiceGroupDetail",
+    "modelRequest": "GetApprovedRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "comfirmCacelInvoice",
+    "modelRequest": "GetApprovedCancelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListNationalResponse",
+    "nameFunction": "getListNational",
+    "modelRequest": "GetListNationalRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListReasonRegisterSubResponse",
+    "nameFunction": "getListReasonRegisterSub",
+    "modelRequest": "GetListReasonRegisterSubRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListIdTypeResponse",
+    "nameFunction": "getListIdType",
+    "modelRequest": "GetListIdTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAllSubInfoNoValidResponse",
+    "nameFunction": "getAllSubInfoNoValid",
+    "modelRequest": "GetAllSubInfoNoValidRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetFeeTransResponse",
+    "nameFunction": "getFeeTrans",
+    "modelRequest": "GetFeeTransRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSubInfoByIdResponse",
+    "nameFunction": "getSubInfoById",
+    "modelRequest": "GetSubInfoByIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetParamsByTypeResponse",
+    "nameFunction": "getParamsByType",
+    "modelRequest": "GetParamsByTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetImageProfileForConnectResponse",
+    "nameFunction": "getImageProfileForConnect",
+    "modelRequest": "GetImageProfileForConnectRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListAgentReponse",
+    "nameFunction": "getListAgent",
+    "modelRequest": "GetListAgentRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListTelecomServiceForFixServiceResponse",
+    "nameFunction": "getListTelecomServiceForFixService",
+    "modelRequest": "GetListTelecomServiceForFixServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListTechnologyResponse",
+    "nameFunction": "getListTechnology",
+    "modelRequest": "GetListTechnologyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DoStartOfflineSurveyResponse",
+    "nameFunction": "doStartOfflineSurvey",
+    "modelRequest": "DoStartOfflineSurveyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstCustOrderDetailResponse",
+    "nameFunction": "getLstCustOrderDetail",
+    "modelRequest": "GetLstCustOrderDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListSubForCreateRequestResponse",
+    "nameFunction": "getListSubForCreateRequest",
+    "modelRequest": "GetListSubForCreateRequestRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStaffForSurveyResponse",
+    "nameFunction": "getListStaffForSurvey",
+    "modelRequest": "GetListStaffForSurveyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SurveyOnlineResponse",
+    "nameFunction": "surveyOnline",
+    "modelRequest": "SurveyOnlineRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListCustTypeGroupResponse",
+    "nameFunction": "getListCustTypeGroup",
+    "modelRequest": "GetListCustTypeGroupRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListCustTypeResponse",
+    "nameFunction": "getListCustType",
+    "modelRequest": "GetListCustTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReasonForCancelRequestResponse",
+    "nameFunction": "getReasonForCancelRequest",
+    "modelRequest": "GetReasonForCancelRequestRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CancelOrderForConnectFixServiceResponse",
+    "nameFunction": "cancelOrderForConnectFixService",
+    "modelRequest": "CancelOrderForConnectFixServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "PrepareDataForTabContractResponse",
+    "nameFunction": "prepareDataForTabContract",
+    "modelRequest": "PrepareDataForTabContractRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLsSubTypesByTelServiceResponse",
+    "nameFunction": "getLsSubTypesByTelService",
+    "modelRequest": "GetLsSubTypesByTelServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetQuotaMapByTelecomServiceResponse",
+    "nameFunction": "getQuotaMapByTelecomService",
+    "modelRequest": "GetQuotaMapByTelecomServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListDepositResponse",
+    "nameFunction": "getListDeposit",
+    "modelRequest": "GetListDepositRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetRequestDetailResponse",
+    "nameFunction": "getRequestDetail",
+    "modelRequest": "GetRequestDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPromotionsForMobileResponse",
+    "nameFunction": "getPromotionsForMobile",
+    "modelRequest": "GetPromotionsForMobileRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPrepaidPaymentResponse",
+    "nameFunction": "getPrepaidPayment",
+    "modelRequest": "GetPrepaidPaymentRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ConnectSubscriberPospaidResponse",
+    "nameFunction": "connectSubscriberPospaid",
+    "modelRequest": "ConnectSubscriberPospaidRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReasonForFixServiceResponse",
+    "nameFunction": "getReasonForFixService",
+    "modelRequest": "GetReasonForFixServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPromotionsForFixServiceResponse",
+    "nameFunction": "getPromotionsForFixService",
+    "modelRequest": "GetPromotionsForFixServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetCustomerInfoByIdResponse",
+    "nameFunction": "getCustomerInfoById",
+    "modelRequest": "GetCustomerInfoByIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchCustomerIdentityResponse",
+    "nameFunction": "searchCustomerIdentity",
+    "modelRequest": "SearchCustomerIdentityRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GenerateAccountPrefixResponse",
+    "nameFunction": "generateAccountPrefix",
+    "modelRequest": "GenerateAccountPrefixRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstContractResponse",
+    "nameFunction": "getLstContract",
+    "modelRequest": "GetLstContractRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListShopBelowResponse",
+    "nameFunction": "getListShopBelow",
+    "modelRequest": "GetListShopBelowRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListDeployModelResponse",
+    "nameFunction": "getListDeployModel",
+    "modelRequest": "GetListDeployModelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetFeeTransForFixServiceResponse",
+    "nameFunction": "getFeeTransForFixService",
+    "modelRequest": "GetFeeTransForFixServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListSubGoodsForFixServiceResponse",
+    "nameFunction": "getListSubGoodsForFixService",
+    "modelRequest": "GetListSubGoodsForFixServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateTaskForTMResponse",
+    "nameFunction": "updateTaskForTM",
+    "modelRequest": "UpdateTaskForTMRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListTaskForStaffResponse",
+    "nameFunction": "getListTaskForStaff",
+    "modelRequest": "GetListTaskForStaffRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "AllCustSubResponse",
+    "nameFunction": "getAllInforBySubId",
+    "modelRequest": "FinishWorkManageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "PrepareForSearchFormTMResponse",
+    "nameFunction": "prepareForSearchFormTM",
+    "modelRequest": "PrepareForSearchFormTMRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListReasonForTMResponse",
+    "nameFunction": "getListReasonForTM",
+    "modelRequest": "GetListReasonForTMRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetBranchNodeByStationReponse",
+    "nameFunction": "getBranchNodeByStation",
+    "modelRequest": "GetBranchNodeByStationRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSubNodeByBranchNodeResponse",
+    "nameFunction": "getSubNodeByBranchNode",
+    "modelRequest": "GetSubNodeByBranchNodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSplitterBySubNodeResponse",
+    "nameFunction": "getSplitterBySubNode",
+    "modelRequest": "GetSplitterBySubNodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPortBySplitterReponse",
+    "nameFunction": "getPortBySplitter",
+    "modelRequest": "GetPortBySplitterRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetStaffDRORespone",
+    "nameFunction": "fillCTV_branch",
+    "modelRequest": "GetRequestStaffDTO"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPonLinkBySplitterPortReponse",
+    "nameFunction": "getPonLinkBySplitterPort",
+    "modelRequest": "GetPonLinkBySplitterPortRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReponseImgBranchs",
+    "nameFunction": "getImgBranhs",
+    "modelRequest": "GetRequestImgBranchs"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetStaffCodeAutoReponse",
+    "nameFunction": "getStaffcodeAuto",
+    "modelRequest": "GetStaffCodeAutoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReponseAddBranch",
+    "nameFunction": "CreateOrUpdateBranch",
+    "modelRequest": "GetRequestAddBranchs"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UploadImageResponseFake",
+    "nameFunction": "uploadImagefake",
+    "modelRequest": "UploadImageRequestFake"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSearchBranchsResponse",
+    "nameFunction": "SearchBranchs",
+    "modelRequest": "GetSearchBranchsRequets"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetContractDetailReponse",
+    "nameFunction": "getContractDetail",
+    "modelRequest": "GetContractDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseResponse",
+    "nameFunction": "updateDauNoiTask",
+    "modelRequest": "UpdateTaskDauNoiRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListDeviceByStationCodeResponse",
+    "nameFunction": "getListDeviceByStationCode",
+    "modelRequest": "GetListDeviceByStationCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListPortByDeviceIdResponse",
+    "nameFunction": "getListPortByDeviceId",
+    "modelRequest": "GetListPortByDeviceIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListODFIndoorByStationCodeResponse",
+    "nameFunction": "getListODFIndoorByStationCode",
+    "modelRequest": "GetListODFIndoorByStationCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListODFOutdoorByIndoorIdResponse",
+    "nameFunction": "getListODFOutdoorByIndoorId",
+    "modelRequest": "GetListODFOutdoorByIndoorIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListImageInfoResponse",
+    "nameFunction": "getListImageInfo",
+    "modelRequest": "GetListImageInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstMaterialsResponse",
+    "nameFunction": "getLstMaterials",
+    "modelRequest": "FinishWorkManageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "StockForFinishTaskResponse",
+    "nameFunction": "getStockTypeRequestForFinishTask",
+    "modelRequest": "FinishWorkManageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FinishTaskResponse",
+    "nameFunction": "finishTask",
+    "modelRequest": "FinishWorkManageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListDepositForFixServiceResponse",
+    "nameFunction": "getListDepositForFixService",
+    "modelRequest": "GetListDepositForFixServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetOdfCouplerListResponse",
+    "nameFunction": "getOdfCouplerList",
+    "modelRequest": "GetOdfCouplerListRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ActiveSubAONForFTTHResponse",
+    "nameFunction": "activeSubAONForFTTH",
+    "modelRequest": "ActiveSubAONForFTTHRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPricePlanListResponse",
+    "nameFunction": "getPricePlanList",
+    "modelRequest": "GetPricePlanListRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSubPricePlanResponse",
+    "nameFunction": "getSubPricePlan",
+    "modelRequest": "GetSubPricePlanRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SurveyOnlineByConnectorCodeResponse",
+    "nameFunction": "surveyOnlineByConnectorCode",
+    "modelRequest": "SurveyOnlineByConnectorCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "uploadProfileForDeployment",
+    "modelRequest": "ImageWorkManageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetBTSCreateBranchResponse",
+    "nameFunction": "getBTSBranchs",
+    "modelRequest": "GetBTSCreateBranchsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPaymentAccountResponse",
+    "nameFunction": "getListAccoutDTO",
+    "modelRequest": "GetPaymentAccountDTORequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetHotChargeResponsePayment",
+    "nameFunction": "getHotCharge",
+    "modelRequest": "GetHotChargeRequestPayment"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GachNoDebitInfoResponse",
+    "nameFunction": "getDebitInfo",
+    "modelRequest": "GachNoDebitInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "paymentMbccs",
+    "modelRequest": "PaymentMbccs"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetChannelInfoByIdResponse",
+    "nameFunction": "getChannelInfoById",
+    "modelRequest": "GetChannelInfoByIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListTaskByOrderIdResponse",
+    "nameFunction": "getListTaskByOrderId",
+    "modelRequest": "GetListTaskByOrderIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListShopByAreaTMResponse",
+    "nameFunction": "getListShopByAreaTM",
+    "modelRequest": "GetListShopByAreaTMRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStaffByTmShopIdResponse",
+    "nameFunction": "getListStaffByTmShopId",
+    "modelRequest": "GetListStaffByTmShopIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "AssignTaskManualResponse",
+    "nameFunction": "assignTaskManual",
+    "modelRequest": "AssignTaskManualRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetInfoChannelKPPResponse",
+    "nameFunction": "getInfoChannelKPP",
+    "modelRequest": "GetInfoChannelKPPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindByStaffIdPOResponse",
+    "nameFunction": "findByStaffIdPO",
+    "modelRequest": "FindByStaffIdPORequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GenerateGroupCodeResponse",
+    "nameFunction": "generateGroupCode",
+    "modelRequest": "GenerateGroupCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListTaskForTMResponse",
+    "nameFunction": "getListTaskForTM",
+    "modelRequest": "GetListTaskForTMRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStationByTmShopIdResponse",
+    "nameFunction": "getListStationByTmShopId",
+    "modelRequest": "GetListStationByTmShopIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReasonUpdateCustomerInfoResponse",
+    "nameFunction": "getReasonUpdateCustomerInfo",
+    "modelRequest": "GetReasonUpdateCustomerInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPrepaidPaymentDetailResponse",
+    "nameFunction": "getPrepaidPaymentDetail",
+    "modelRequest": "GetPrepaidPaymentDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetTransCodeResponse",
+    "nameFunction": "getTransCode",
+    "modelRequest": "GetTransCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetWhiteLLPricePlanListResponse",
+    "nameFunction": "getWhiteLLPricePlanList",
+    "modelRequest": "GetWhiteLLPricePlanListRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GenerateAccountForWhiteLLResponse",
+    "nameFunction": "generateAccountForWhiteLL",
+    "modelRequest": "GenerateAccountForWhiteLLRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListShopAndChildByShopIdResponse",
+    "nameFunction": "getListShopAndChildByShopId",
+    "modelRequest": "GetListShopAndChildByShopIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetCheckReceiveWarrantyResponse",
+    "nameFunction": "checkReceiveWarranty",
+    "modelRequest": "GetCheckReceiveWarrantyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListAttachDepartmentResponse",
+    "nameFunction": "getListAttachDepartment",
+    "modelRequest": "GetListAttachDepartmentRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReponseAddBranch",
+    "nameFunction": "getReceiveWarranty",
+    "modelRequest": "GetreceiveWarrantyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAllHelpNodeResponse",
+    "nameFunction": "getAllHelpNode",
+    "modelRequest": "GetAllHelpNodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetHelpDetailByHelpIdResponse",
+    "nameFunction": "getHelpDetailByHelpId",
+    "modelRequest": "GetHelpDetailByHelpIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetAccountContactResponse",
+    "nameFunction": "getAccountContact",
+    "modelRequest": "GetAccountContactRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetInfoChannelTaskExtendReponse",
+    "nameFunction": "searchInforCSKPP",
+    "modelRequest": "GetInfoChannelTaskExtendRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "ClossTaskCareChannel",
+    "modelRequest": "ClossTaskCareChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchSubscriberResponse",
+    "nameFunction": "searchSubscriber",
+    "modelRequest": "SearchSubscriberRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateRequestChangeDeploymentAddrResponse",
+    "nameFunction": "createRequestChangeDeploymentAddr",
+    "modelRequest": "CreateRequestChangeDeploymentAddrRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CancelRequestChangeDeploymentAddrResponse",
+    "nameFunction": "cancelRequestChangeDeploymentAddr",
+    "modelRequest": "CancelRequestChangeDeploymentAddrRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReasonChangeDeploymentAddrResponse",
+    "nameFunction": "getReasonChangeDeploymentAddr",
+    "modelRequest": "GetReasonChangeDeploymentAddrRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ForwardAddressInstallationsResponse",
+    "nameFunction": "forwardAddressInstallations",
+    "modelRequest": "ForwardAddressInstallationsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetFeedBackChannelKppResponse",
+    "nameFunction": "searchReportchannel",
+    "modelRequest": "GetFeedBackChannelKppResquest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReportRequencyReponse",
+    "nameFunction": "searchReportFrequencychannel",
+    "modelRequest": "GetFeedBackChannelKppResquest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReportDetailFeedBackChannelKppResponse",
+    "nameFunction": "ViewReportchannelDetail",
+    "modelRequest": "GetFeedBackChannelKppResquest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReportCareChannelDetailResponse",
+    "nameFunction": "getListReportChannelcare",
+    "modelRequest": "GetFeedBackChannelKppResquest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetBusinessCenterKPPResponse",
+    "nameFunction": "getListShopCenter",
+    "modelRequest": "GetListStaffBelowRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetFinishTaskInforByTaskIdResponse",
+    "nameFunction": "getFinishTaskInforByTaskId",
+    "modelRequest": "GetFinishTaskInforByTaskIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListPolicyMannagerResponse",
+    "nameFunction": "GetListPolicyMannager",
+    "modelRequest": "GetListPolicyMannagerRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListParamsFromMBCCSV2Response",
+    "nameFunction": "getListParamsFromMBCCSV2",
+    "modelRequest": "GetListParamsFromMBCCSV2Request"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DowloadfilePoliceResponse",
+    "nameFunction": "DownloadFilePolicy",
+    "modelRequest": "DowloadfilePoliceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetOldGPONInfrastructureResponse",
+    "nameFunction": "getOldGPONInfrastructure",
+    "modelRequest": "GetOldGPONInfrastructureRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetRequestDetailForWhiteResponse",
+    "nameFunction": "getRequestDetailForWhite",
+    "modelRequest": "GetRequestDetailForWhiteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "checkviewFeedbackt",
+    "modelRequest": "GetCheckViewFeedbackRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstReportGoodsResponse",
+    "nameFunction": "getListReportGoods",
+    "modelRequest": "GetLstReportGoodsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstStateGoodsResponse",
+    "nameFunction": "GetLstStateGoods",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstGoodsResponse",
+    "nameFunction": "GetLstGoods",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GoodTypeResponse",
+    "nameFunction": "GetLstGoodsType",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetFeeTransForRegisterResponse",
+    "nameFunction": "getFeeTransForRegister",
+    "modelRequest": "GetFeeTransForRegisterRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetManagerForChannelResponse",
+    "nameFunction": "getManagerForChannel",
+    "modelRequest": "GetManagerForChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchISDNResponse",
+    "nameFunction": "SearchListISDN",
+    "modelRequest": "SearchISDNRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FinishCommonTaskResponse",
+    "nameFunction": "finishCommonTask",
+    "modelRequest": "FinishCommonTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPriceOfGoodsResponse",
+    "nameFunction": "getPriceOfGoods",
+    "modelRequest": "GetPriceOfGoodsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSaleTransInfoForSaleCollAnypayResponse",
+    "nameFunction": "getSaleTransInfoForSaleCollAnypay",
+    "modelRequest": "GetSaleTransInfoForSaleCollAnypayRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReclaimStockModelResponse",
+    "nameFunction": "getReclaimStockModel",
+    "modelRequest": "GetReclaimStockModelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStaticIPWithCheckResponse",
+    "nameFunction": "getListStaticIPWithCheck",
+    "modelRequest": "GetListStaticIPWithCheckRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBranchsCareResponse",
+    "nameFunction": "getListBranchsCare",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetBuyGoodInMonthReponse",
+    "nameFunction": "getListBuyGoodInMonth",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstSubDevReportResponse",
+    "nameFunction": "getLstSubDevReport",
+    "modelRequest": "GetLstSubDevReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstDetailSubDevReportResponse",
+    "nameFunction": "getLstSubDevReportDetail",
+    "modelRequest": "GetLstDetailSubDevReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateSurveyChangeProductResponse",
+    "nameFunction": "updateSurveyChangeProduct",
+    "modelRequest": "UpdateSurveyChangeProductRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateDeploymentChangeProductResponse",
+    "nameFunction": "updateDeploymentChangeProduct",
+    "modelRequest": "UpdateDeploymentChangeProductRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSearchResetPortResponse",
+    "nameFunction": "searchViewResetPort",
+    "modelRequest": "GetSearchResetPortRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetRoleCodeResponse",
+    "nameFunction": "findByRolecode",
+    "modelRequest": "GetRoleCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetChannelTypeByCodeRespose",
+    "nameFunction": "findChannelTypeByCode",
+    "modelRequest": "GetChannelTypeByCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetInfrasInfoResponse",
+    "nameFunction": "getInfrasInfo",
+    "modelRequest": "GetInfrasInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ChangePortAONResponse",
+    "nameFunction": "changePortAON",
+    "modelRequest": "ChangePortAONRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ChangePortGPONResponse",
+    "nameFunction": "changePortGPON",
+    "modelRequest": "ChangePortGPONRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ChangeDeviceGPONResponse",
+    "nameFunction": "changeDeviceGPON",
+    "modelRequest": "ChangeDeviceGPONRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindConnectorByStaffIdResponse",
+    "nameFunction": "findConnectorByStaffId",
+    "modelRequest": "FindConnectorByStaffIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListVasForRegisResponse",
+    "nameFunction": "getListVasForRegis",
+    "modelRequest": "GetListVasForRegisRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListServiceResponse",
+    "nameFunction": "getListService",
+    "modelRequest": "GetListServiceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindChannelOutResponse",
+    "nameFunction": "findChannelOut",
+    "modelRequest": "FindChannelOutRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstActionResponse",
+    "nameFunction": "getActionCode",
+    "modelRequest": "GetLstActionRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchWarrantyResponse",
+    "nameFunction": "searchWarrantyRequest",
+    "modelRequest": "SearchWarrantyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDevireDetailByIdResponse",
+    "nameFunction": "getDevireDetailById",
+    "modelRequest": "GetDevireDetailByIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReponseAddBranch",
+    "nameFunction": "returnWarranty",
+    "modelRequest": "WarrantyReturnRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindCustomerByIsdnResponse",
+    "nameFunction": "findCustomerByIsdn",
+    "modelRequest": "FindCustomerByIsdnRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListRepairStaffResponse",
+    "nameFunction": "getListRepairStaff",
+    "modelRequest": "GetListRepairStaffRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListReceiptErrorGroupResponse",
+    "nameFunction": "getListReceiptErrorGroup",
+    "modelRequest": "GetListReceiptErrorGroupRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReponseAddBranch",
+    "nameFunction": "onReject",
+    "modelRequest": "OnRejectRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CheckManagerResponse",
+    "nameFunction": "checkManager",
+    "modelRequest": "CheckManagerRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindObjectSpecByProductCodeResponse",
+    "nameFunction": "findObjectSpecByProductCode",
+    "modelRequest": "FindObjectSpecByProductCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindDepartmentByObjectSpectCodeResponse",
+    "nameFunction": "findDepartmentByObjectSpectCode",
+    "modelRequest": "FindDepartmentByObjectSpectCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstFileByPolicyIdResponse",
+    "nameFunction": "getLstFileByPolicyId",
+    "modelRequest": "GetLstFileByPolicyIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListPolicyTypeResponse",
+    "nameFunction": "getListPolicyType",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListCommonReportChargeResponse",
+    "nameFunction": "getListCommonReportCharge",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListCollectionGroupResponse",
+    "nameFunction": "getListCollectionGroup",
+    "modelRequest": "GetListCollectionGroupRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListStaffManagerOrCollaboratorResponse",
+    "nameFunction": "getListStaffManagerOrCollaborator",
+    "modelRequest": "GetListStaffManagerOrListCollaboratorRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetReportCollectionChargeResponse",
+    "nameFunction": "getReportCollectionCharge",
+    "modelRequest": "GetReportCollectionChargeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstStaffForConsultanceResponse",
+    "nameFunction": "getLstStaffForConsultance",
+    "modelRequest": "GetLstStaffForConsultanceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.CheckIsDnVipResponse",
+    "nameFunction": "checkIsDnVip",
+    "modelRequest": "UtilsRequest.CheckIsDnVipRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListPackageResponse",
+    "nameFunction": "getListPackage",
+    "modelRequest": "GetListPackageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDetailPackageInfoResponse",
+    "nameFunction": "getDetailPackageInfo",
+    "modelRequest": "GetDetailPackageInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetPointInfoForChannelResponse",
+    "nameFunction": "getPointInfoForChannel",
+    "modelRequest": "UtilsRequest.GetPointInfoForChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchInfoTaskResponse",
+    "nameFunction": "searchInfoTask",
+    "modelRequest": "SearchInfoTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchDetailInfoTaskResponse",
+    "nameFunction": "searchDetailInfoTask",
+    "modelRequest": "SearchDetailInfoTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "InsertInfoTaskResponse",
+    "nameFunction": "insertInfoTask",
+    "modelRequest": "InsertInfoTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdateInfoTaskResponse",
+    "nameFunction": "updateInfoTask",
+    "modelRequest": "UpdateInfoTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetPointDetailForChannelResponse",
+    "nameFunction": "getPointDetailForChannel",
+    "modelRequest": "UtilsRequest.GetPointDetailForChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindTmStaffByConnectorResponse",
+    "nameFunction": "findTmStaffByConnector",
+    "modelRequest": "FindTmStaffByConnectorRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "getOtpForChangePackage",
+    "modelRequest": "UtilsRequest.GetOtpForChangePackageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.FindSubscriberForChangePackageResponse",
+    "nameFunction": "findSubscriberForChangePackage",
+    "modelRequest": "UtilsRequest.FindSubscriberForChangePackageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.CheckSpecialProductResponse",
+    "nameFunction": "checkSpecialProduct",
+    "modelRequest": "UtilsRequest.CheckSpecialProductRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.PrepareChangePackageResponse",
+    "nameFunction": "prepareChangePackage",
+    "modelRequest": "UtilsRequest.PrepareChangePackageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "changePackage",
+    "modelRequest": "UtilsRequest.ChangePackageRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.FindDepartmentByObjectSpecCodeResponse",
+    "nameFunction": "findDepartmentByObjectSpecCode",
+    "modelRequest": "UtilsRequest.FindDepartmentByObjectSpecCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "getOTPEWallet",
+    "modelRequest": "UtilsRequest.GetOTPRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "updateIsdnEWalletForStaff",
+    "modelRequest": "UtilsRequest.UpdateIsdnEWalletForStaffRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "PrepareDataForCreateExternalChannelResponse",
+    "nameFunction": "prepareDataForCreateExternalChannel",
+    "modelRequest": "PrepareDataForCreateExternalChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "String",
+    "nameFunction": "checkOtpByFunction",
+    "modelRequest": "CheckOtpByFunctionRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetListImeiByStaffCodeResponse",
+    "nameFunction": "getListImeiByStaffCode",
+    "modelRequest": "UtilsRequest.GetListImeiByStaffCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "removeImeiFromList",
+    "modelRequest": "UtilsRequest.RemoveImeiFromListRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetListProdOfferExcPointResponse",
+    "nameFunction": "getListProdOfferExcPoint",
+    "modelRequest": "UtilsRequest.GetListProdOfferExcPointRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "getOTPByFunction",
+    "modelRequest": "UtilsRequest.GetOTPByFunctionRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.CreateOrderResponse",
+    "nameFunction": "createOrder",
+    "modelRequest": "UtilsRequest.CreateOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetDetailProdOfferExcPointResponse",
+    "nameFunction": "getDetailProdOfferExcPoint",
+    "modelRequest": "UtilsRequest.GetDetailProdOfferExcPointRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.SearchOrdersInfoResponse",
+    "nameFunction": "searchOrdersInfo",
+    "modelRequest": "UtilsRequest.SearchOrdersInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.SearchOrderDetailInfoResponse",
+    "nameFunction": "searchOrderDetailInfo",
+    "modelRequest": "UtilsRequest.SearchOrderDetailInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetDataForPointHistory",
+    "nameFunction": "getDataForPointHistory",
+    "modelRequest": "UtilsRequest.GetPointInfoForChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "progressOrder",
+    "modelRequest": "UtilsRequest.ProgressOrderRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetListOptionSetValueByTypeResponse",
+    "nameFunction": "getListOptionSetValueByType",
+    "modelRequest": "UtilsRequest.GetListOptionSetValueByTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UtilsResponse.GetLstOwnerOrderForExchangePointResponse",
+    "nameFunction": "getLstOwnerOrderForExchangePoint",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindOptionSetByCodeValueResponse",
+    "nameFunction": "findOptionSetByCodeValue",
+    "modelRequest": "FindOptionSetByCodeValueRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchDebitShopStaffResponse",
+    "nameFunction": "searchDebitShopStaff",
+    "modelRequest": "SearchDebitShopStaffRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchBankReceiptNoteResponse",
+    "nameFunction": "searchBankReceiptNote",
+    "modelRequest": "SearchBankReceiptNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "cancelBankReceiptNote",
+    "modelRequest": "CancelBankReceiptNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ViewBankReceiptNoteDetailResponse",
+    "nameFunction": "viewBankReceiptNoteDetail",
+    "modelRequest": "ViewBankReceiptNoteDetailRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "SearchSaleTransReponse",
+    "nameFunction": "searchSaleTrans",
+    "modelRequest": "SearchSaleTransRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ResponseSuccess",
+    "nameFunction": "saveBankReceiptNote",
+    "modelRequest": "SaveBankReceiptNoteRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "PrepareForUpdateCustomerInfoResponse",
+    "nameFunction": "prepareForUpdateCustomerInfo",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "sendOTPForSale",
+    "modelRequest": "SendOTPForSaleRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindSubByOtpResponse",
+    "nameFunction": "findSubByOtp",
+    "modelRequest": "FindSubByOtpRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDataForUpdateCustomerResponse",
+    "nameFunction": "getDataForUpdateCustomer",
+    "modelRequest": "GetDataForUpdateCustomerRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "createCollectChannel",
+    "modelRequest": "CreateCollectChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "updateCollectChannel",
+    "modelRequest": "UpdateCollectChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CollectBO",
+    "nameFunction": "getListCollection",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CollectChannel",
+    "nameFunction": "getLstCollectChannel",
+    "modelRequest": "GetLstCollectChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ChartReport",
+    "nameFunction": "getDataForChartReport",
+    "modelRequest": "CollectChannelReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "Content",
+    "nameFunction": "viewDetailCollectChannelReport",
+    "modelRequest": "CollectChannelReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDetailPackageForSaleDataResponse",
+    "nameFunction": "getDetailPackageForSaleData",
+    "modelRequest": "BaseRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ValidateSaleDataInfoResponse",
+    "nameFunction": "validateSaleDataInfo",
+    "modelRequest": "ValidateSaleDataInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "saleData",
+    "modelRequest": "ValidateSaleDataInfoRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "StaffSM",
+    "nameFunction": "findChannelByOwnerId",
+    "modelRequest": "FindChannelByOwnerIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DevelopStaff",
+    "nameFunction": "getListStaffDevelopment",
+    "modelRequest": "GetListStaffDevelopmentRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GenerateQRCodeResponse",
+    "nameFunction": "generateQRCode",
+    "modelRequest": "RequestExtend"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "validateQRCode",
+    "modelRequest": "ValidateQRCodeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListPOSCareTaskResponse",
+    "nameFunction": "getListPOSCareTask",
+    "modelRequest": "GetListPOSCareTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UpdatePOSCareTaskResponse",
+    "nameFunction": "updatePOSCareTaskRequest",
+    "modelRequest": "UpdatePOSCareTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "Channel",
+    "nameFunction": "getDetailPOSCareTask",
+    "modelRequest": "GetListPOSCareTaskRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBranchByShopIdResponse",
+    "nameFunction": "getListBranchByShopId",
+    "modelRequest": "GetListBranchByShopIdRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBusinessCenterByBranchResponse",
+    "nameFunction": "getListBusinessCenterByBranch",
+    "modelRequest": "GetListBusinessCenterByBranchRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListChannelCodeByBusinessCtrResponse",
+    "nameFunction": "getListChannelCodeByBusinessCtr",
+    "modelRequest": "GetListChannelCodeByBusinessCtrRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ChartReport",
+    "nameFunction": "getDataForChannelCareChartReport",
+    "modelRequest": "GetDataForChannelCareChartReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "Content",
+    "nameFunction": "viewDetailChannelCareReport",
+    "modelRequest": "GetDataForChannelCareChartReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "updateBTSForChannel",
+    "modelRequest": "UpdateBTSForChannelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "Transfer",
+    "nameFunction": "getTransferAnypayHistory",
+    "modelRequest": "GetTransferAnypayHistoryRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FindListSubBySerialsResponse",
+    "nameFunction": "findListSubBySerials",
+    "modelRequest": "FindListSubBySerialsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "Shop",
+    "nameFunction": "getListChildShopByShopPath",
+    "modelRequest": "GetListChildShopByShopPathRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ReportKpi",
+    "nameFunction": "getDataForKpiReport",
+    "modelRequest": "GetDataForKpiReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "FinishChangeDeviceResponse",
+    "nameFunction": "finishChangeDevice",
+    "modelRequest": "FinishChangeDeviceRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "String",
+    "nameFunction": "getFavoritesFunc",
+    "modelRequest": "GetFavoritesFuncRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "String",
+    "nameFunction": "updateFavoritesFunc",
+    "modelRequest": "UpdateFavoritesFuncRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CollectDataPromotorSaleResponse",
+    "nameFunction": "collectDataPromotorSale",
+    "modelRequest": "CollectDataPromotorSaleRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDataForPromotorSaleReportResponse",
+    "nameFunction": "getDataForPromotorSaleReport",
+    "modelRequest": "GetDataForPromotorSaleReportRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "EmptyObject",
+    "nameFunction": "connectSubWhenChangeModel",
+    "modelRequest": "ConnectSubWhenChangeModelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDetailChannelForGalleryResponse",
+    "nameFunction": "getDetailChannelForGallery",
+    "modelRequest": "GetDetailChannelForGalleryRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "Shop",
+    "nameFunction": "getListBranchOfUserLogin",
+    "modelRequest": "GetListBranchOfUserLoginRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBTSAndPOSResponse",
+    "nameFunction": "getListBTSAndPOS",
+    "modelRequest": "GetListBTSAndPOSRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListBTSAndPOSResponse.BTS",
+    "nameFunction": "getInfoBts",
+    "modelRequest": "GetInfoBtsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseUtilsObject",
+    "nameFunction": "getDataServerObject",
+    "modelRequest": "BaseUtilsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseUtilsObject",
+    "nameFunction": "getDataServerList",
+    "modelRequest": "BaseUtilsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseUtilsResponse",
+    "nameFunction": "getDataServerResponse",
+    "modelRequest": "BaseUtilsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetStaffByTelResponse",
+    "nameFunction": "getStaffByTel",
+    "modelRequest": "GetStaffByTelRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ConfigurePayReponse",
+    "nameFunction": "checkCommissionPay",
+    "modelRequest": "ConfigurePayRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DataObject",
+    "nameFunction": "getListDataObject",
+    "modelRequest": "BaseRequestUtils"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseResponseUtils",
+    "nameFunction": "getDataObject",
+    "modelRequest": "BaseRequestUtils"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "StashIdentity",
+    "nameFunction": "getIdentityTypeFormat",
+    "modelRequest": "BaseRequestUtils"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CollectNRCInformationResponse",
+    "nameFunction": "collectNRCInformation",
+    "modelRequest": "CollectNRCInformationRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "ContentTermAndConditionResponse",
+    "nameFunction": "getContentTermAndCondition",
+    "modelRequest": "ContentTermAndConditionRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "AcceptTermAndConditionResponse",
+    "nameFunction": "acceptTermAndCondition",
+    "modelRequest": "AcceptTermAndConditionRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "UnlockInfrastructure",
+    "nameFunction": "searchToUnlockInfrastructure",
+    "modelRequest": "SearchToUnlockInfrastructureRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDataToUnlockResponse",
+    "nameFunction": "getDataToUnlock",
+    "modelRequest": "GetDataToUnlockRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "String",
+    "nameFunction": "unlockInfrastructure",
+    "modelRequest": "UnlockInfrastructureRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateSub",
+    "nameFunction": "searchDataToCreateSubscriber",
+    "modelRequest": "SearchDataToCreateSubscriberRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDataToCreateSubResponse",
+    "nameFunction": "getDataToCreateSub",
+    "modelRequest": "GetDataToCreateSubRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateSubscriberResponse",
+    "nameFunction": "createSubscriberGpon",
+    "modelRequest": "CreateSubscriberRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CreateSubscriberAonResponse",
+    "nameFunction": "createSubscriberAon",
+    "modelRequest": "CreateSubscriberAonRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetLstStationResponse",
+    "nameFunction": "getLstStation",
+    "modelRequest": "GetLstStationRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DeleteSubOnNIMSResponse",
+    "nameFunction": "deleteSubOnNIMS",
+    "modelRequest": "DeleteSubOnNIMSRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSplitterByStationResponse",
+    "nameFunction": "getSplitterByStation",
+    "modelRequest": "GetSplitterByStationRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSubBySplitterResponse",
+    "nameFunction": "getSubBySplitter",
+    "modelRequest": "GetSubBySplitterRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "BaseUtilsResponse",
+    "nameFunction": "getLstStaffByShop",
+    "modelRequest": "GetLstStaffByShopRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "PrepareInfoForSearchProfileResponse",
+    "nameFunction": "prepareInfoForSearchProfile",
+    "modelRequest": "PrepareInfoForSearchProfileRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetActionProfileByInputResponse",
+    "nameFunction": "getActionProfileByInput",
+    "modelRequest": "GetActionProfileByInputRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetDetailProfileResponse",
+    "nameFunction": "getDetailProfile",
+    "modelRequest": "GetDetailProfileRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CheckProfileForMBCCSResponse",
+    "nameFunction": "checkProfileForMBCCS",
+    "modelRequest": "CheckProfileForMBCCSRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DataObjectResponse",
+    "nameFunction": "getDataObjectBy",
+    "modelRequest": "BaseObjectRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "DataObjectResponse",
+    "nameFunction": "getDataLstObjectBy",
+    "modelRequest": "BaseObjectRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSearchUpdateContractResponse",
+    "nameFunction": "getSearchUpdateContract",
+    "modelRequest": "GetSearchUpdateContractRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetSearchAcoountResponse",
+    "nameFunction": "getSearchAcoount",
+    "modelRequest": "GetSearchAcoountRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListFeeUpdateContractResponse",
+    "nameFunction": "getListFeeUpdateContract",
+    "modelRequest": "GetListFeeUpdateContractRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "String",
+    "nameFunction": "updateContract",
+    "modelRequest": "GetupdateContractRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListReasonUpdateContractResponse",
+    "nameFunction": "getListReasonUpdateContract",
+    "modelRequest": "GetListReasonUpdateContractRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "String",
+    "nameFunction": "getDataServerObjectString",
+    "modelRequest": "BaseUtilsRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CustomerFTTHObject",
+    "nameFunction": "getLstObjectByCanh",
+    "modelRequest": "RequestCustomerFTTH"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "CustomerFTTHObject",
+    "nameFunction": "getObjectByCanh",
+    "modelRequest": "RequestCustomerFTTH"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetNewNotificationByChannelTypeResponse",
+    "nameFunction": "getNewNotificationByChannelType",
+    "modelRequest": "GetNewNotificationByChannelTypeRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetListNotifyResponse",
+    "nameFunction": "getNotificationByChannelType",
+    "modelRequest": "GetListNotifyRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetBtsTypesResponse",
+    "nameFunction": "getBtsTypes",
+    "modelRequest": "GetBtsTypesRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetPosTypesResponse",
+    "nameFunction": "getPosTypes",
+    "modelRequest": "GetPosTypesRequest"
+  },
+  {
+    "method": "POST",
+    "routing": "Config.URL_UserRouting",
+    "response": "GetInfoBTSResponse",
+    "nameFunction": "getInfoBTS",
+    "modelRequest": "GetInfoBtsRequest"
+  }
+]
